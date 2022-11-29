@@ -28,7 +28,7 @@ public class calculadora {
     public double teto(double N1){
         return Math.ceil(N1);
     }
-    public double chao(double N1){
+    public double piso(double N1){
         return Math.floor(N1);
     }
 }
