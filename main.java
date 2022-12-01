@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class teste2 {
-  
-  public static void main(String[] args) {
+public class Main {
+
+	public static void main(String[] args) {
 		calculadora calculadora = new calculadora();
 		
 		Scanner scanner = new Scanner(System.in);
@@ -50,7 +50,7 @@ public class teste2 {
 				System.out.println(calculadora.multi(N1, N2));
 				break;
 			}
-      case 4:{
+			case 4:{
 				System.out.print("Digite o primeiro numero: ");
 			N1 = scanner.nextDouble();
 			System.out.print("Digite o segundo numero: ");
@@ -75,6 +75,20 @@ public class teste2 {
         System.out.println(calculadora.raiz(N1));
         break;
       }
+      case 7:{
+				System.out.print("Digite o numero: ");
+			N1 = scanner.nextDouble();
+				
+        System.out.println(calculadora.teto(N1));
+        break;
+      }
+      case 8:{
+				System.out.print("Digite o numero: ");
+			N1 = scanner.nextDouble();
+
+        System.out.println(calculadora.piso(N1));
+        break;
+      }
       
 			}
 		}
@@ -83,6 +97,3 @@ public class teste2 {
 	}
 
 }
-
-  
-
