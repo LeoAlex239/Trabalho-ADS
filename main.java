@@ -50,6 +50,31 @@ public class teste2 {
 				System.out.println(calculadora.multi(N1, N2));
 				break;
 			}
+      case 4:{
+				System.out.print("Digite o primeiro numero: ");
+			N1 = scanner.nextDouble();
+			System.out.print("Digite o segundo numero: ");
+			N2 = scanner.nextDouble();
+
+				System.out.println(calculadora.div(N1, N2));
+				break;
+			}
+      case 5:{
+				System.out.print("Digite o primeiro numero: ");
+			N1 = scanner.nextDouble();
+			System.out.print("Digite o segundo numero: ");
+			N2 = scanner.nextDouble();
+
+        System.out.println(calculadora.expo(N1, N2));
+        break;
+      }
+      case 6:{
+				System.out.print("Digite o numero: ");
+			N1 = scanner.nextDouble();
+				
+        System.out.println(calculadora.raiz(N1));
+        break;
+      }
       
 			}
 		}
@@ -58,3 +83,6 @@ public class teste2 {
 	}
 
 }
+
+  
+
